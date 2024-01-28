@@ -1,0 +1,9 @@
+const initial = [1,2,3]
+const second = [4,5,6]
+console.log(initial.concat(second))
+
+for(let i = 0;i<second.length;i++){
+    initial.push(second[i]);
+}
+
+console.log(initial);
